@@ -10,42 +10,26 @@ void print_triangle(int size)
 
 {
 
+int x, y, z,
+
 if (size <= 0)
-
 {
-
 _putchar('\n');
-
+}
 else
-
 {
-
-int i, j;
-
-for (i = 1; i <= size; i++)
-
+for (x = 0; x < size; x++)
 {
-
-for (j = i; j < size; j++)
-
+for (y = size - x; y > 1; y--)
 {
-
-_putchar(' ');
-
+-putchar(32);
+for (z = 0; <= x; z++)
+{
+_putchar(35);
 }
-
-for (j = 1; j <= i; j++)
-
-{
-
-_putchar('#');
-}
-
 _putchar('\n');
-
+}
 }
 
-}
 
 }
-
